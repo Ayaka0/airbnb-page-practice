@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap");
+
+$start-btn: rgb(219, 65, 66);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*font-family: "Source Sans Pro", sans-serif;*/
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/**  Header section **/
+header {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 5%;
+  background-color: #fff;
+  position: fixed;
+
+  li,
+  a,
+  button {
+    color: #444;
+    text-decoration: none;
+    align-items: center;
+  }
+  .nav-link {
+    list-style: none;
+  }
+  .nav-link li {
+    display: inline-block;
+    padding: 0 20px;
+  }
+
+  button {
+    padding: 7px 15px;
+    font-size: 1rem;
+    background-color: $start-btn;
+    border-radius: 5px;
+    border: 0;
+    color: #fff;
+    font-weight: bold;
+  }
+  li:hover {
+    text-decoration: underline;
+  }
+}
+
+/**  Banner section  **/
+.bannar-content {
+  background-color: plum;
+}
+/*
+
+.bannar-content {
+  position: relative;
+  z-index: 0;
+}*/
+
+/*.bannar-img-content {
+  max-width: 100%;
+}*/
+/*
+.banna-img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 0;
+}
+*/
